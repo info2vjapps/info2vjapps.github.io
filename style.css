@@ -113,8 +113,9 @@ img {
 }
 
 .header-logo-img {
-    max-height: 30px;
-    width: auto;
+    height: 80px; /* Replaced max-height: 30px */
+    width: 80px;  /* Replaced width: auto */
+    object-fit: contain; /* Prevents the logo from stretching */
     mix-blend-mode: multiply; 
     transition: transform 0.2s ease;
 }
@@ -124,8 +125,8 @@ img {
 }
 
 .footer-logo-img {
-    max-height: 52px;
-    width: auto;
+    max-height: 52px; /* Update this to height: 80px if you want the footer logo to match */
+    width: auto;      /* Update this to width: 80px if you want the footer logo to match */
     background: #ffffff;
     padding: 6px 12px;
     border-radius: 8px;
@@ -140,7 +141,6 @@ img {
     color: #98a2b3;
     margin-top: 4px;
 }
-
 /* =========================================================
    NAVIGATION
 ========================================================= */
