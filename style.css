@@ -104,7 +104,6 @@ img {
 /* =========================================================
    LOGO STYLING
 ========================================================= */
-
 .logo {
     display: flex;
     flex-direction: column;
@@ -113,9 +112,9 @@ img {
 }
 
 .header-logo-img {
-    height: 125px; /* Replaced max-height: 30px */
-    width: 125px;  /* Replaced width: auto */
-    object-fit: contain; /* Prevents the logo from stretching */
+    height: 125px;
+    width: 125px;
+    object-fit: contain;
     mix-blend-mode: multiply; 
     transition: transform 0.2s ease;
 }
@@ -125,8 +124,8 @@ img {
 }
 
 .footer-logo-img {
-    max-height: 52px; /* Update this to height: 80px if you want the footer logo to match */
-    width: auto;      /* Update this to width: 80px if you want the footer logo to match */
+    max-height: 52px;
+    width: auto;
     background: #ffffff;
     padding: 6px 12px;
     border-radius: 8px;
