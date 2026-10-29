@@ -113,8 +113,8 @@ img {
 }
 
 .header-logo-img {
-    height: 80px; /* Replaced max-height: 30px */
-    width: 80px;  /* Replaced width: auto */
+    height: 125px; /* Replaced max-height: 30px */
+    width: 125px;  /* Replaced width: auto */
     object-fit: contain; /* Prevents the logo from stretching */
     mix-blend-mode: multiply; 
     transition: transform 0.2s ease;
