@@ -112,15 +112,15 @@ img {
 }
 
 .header-logo-img {
-    height: 125px;
-    width: 125px;
+    height: 200px;
+    width: 200px;
     object-fit: contain;
     mix-blend-mode: multiply; 
     transition: transform 0.2s ease;
 }
 
 .header-logo-img:hover {
-    transform: scale(1.02);
+    transform: scale(2.04);
 }
 
 .footer-logo-img {
